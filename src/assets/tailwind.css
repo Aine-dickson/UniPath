@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@theme {
+  /* Colors */
+  --color-gold:         #E9B949;
+  --color-gold-soft:    #F5D485;
+  --color-gold-dim:     #9A7520;
+
+  --color-navy:         #0D1421;
+  --color-navy-mid:     #121E33;
+  --color-navy-light:   #1A2B48;
+  --color-navy-hover:   #1F3356;
+
+  --color-surface:      var(--bg-surface);
+  --color-raised:       var(--bg-raised);
+  --color-cream:        #EDE8DF;
+  --color-muted:        #6E7F9E;
+  --color-sub:          #B0BDD6;
+  --color-success:      #52D68A;
+  --color-danger:       #F47C7C;
+  --color-warn:         #F5B942;
+  --color-info:         #60A5FA;
+
+  /* Font families */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body:    'Plus Jakarta Sans', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Border radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* Shadows */
+  --shadow-sm:      0 2px 8px rgba(0,0,0,0.15);
+  --shadow-md:      0 4px 24px rgba(0,0,0,0.20);
+  --shadow-lg:      0 8px 48px rgba(0,0,0,0.28);
+  --shadow-gold:    0 4px 20px rgba(233,185,73,0.30);
+  --shadow-gold-lg: 0 8px 30px rgba(233,185,73,0.40);
+
+  /* Animations */
+  --animate-drawer-in: drawerIn 0.24s ease;
+  --animate-fade-in:   fadeIn 0.18s ease;
+
+  /* Max widths */
+  --width-container: 1080px;
+
+  /* Keyframes */
+  @keyframes drawerIn {
+    from { transform: translateX(40px); opacity: 0; }
+    to   { transform: translateX(0);    opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}
+
+/* Dark mode variant — class-based, matching your old darkMode: 'class' */
+@variant dark (&:where(.dark, .dark *));

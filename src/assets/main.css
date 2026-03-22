@@ -1,0 +1,210 @@
+/* ─── Google Fonts already loaded in index.html ─── */
+
+/* ═══════════════════════════════════════
+   DESIGN TOKENS (CSS vars consumed by both
+   Tailwind's var() references and raw rules)
+═══════════════════════════════════════ */
+:root {
+  --gold:       #E9B949;
+  --gold-soft:  #F5D485;
+  --gold-dim:   #9A7520;
+  --green:      #52D68A;
+  --red:        #F47C7C;
+  --amber:      #F5B942;
+  --blue:       #60A5FA;
+  --transition: 0.2s ease;
+}
+
+/* Dark theme tokens */
+.dark {
+  --bg:         #0D1421;
+  --bg-surface: #121E33;
+  --bg-raised:  #1A2B48;
+  --bg-hover:   #1F3356;
+  --border:     rgba(233,185,73,0.12);
+  --border-soft:rgba(255,255,255,0.07);
+  --text:       #EDE8DF;
+  --text-sub:   #B0BDD6;
+  --text-muted: #6E7F9E;
+  --input-bg:   #0D1421;
+}
+
+/* Light theme tokens */
+:root:not(.dark) {
+  --bg:         #F7F4EE;
+  --bg-surface: #FFFFFF;
+  --bg-raised:  #F0ECE3;
+  --bg-hover:   #E8E2D8;
+  --border:     rgba(154,117,32,0.18);
+  --border-soft:rgba(0,0,0,0.08);
+  --text:       #1A1A2E;
+  --text-sub:   #3D4A6B;
+  --text-muted: #7A8599;
+  --input-bg:   #FFFFFF;
+}
+
+/* ═══════════════════════════════════════
+   BASE
+═══════════════════════════════════════ */
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+  transition: background var(--transition), color var(--transition);
+}
+
+/* ═══════════════════════════════════════
+   ATMOSPHERIC DARK BACKGROUND
+   (Tailwind has no radial-gradient or
+    repeating-linear-gradient utilities)
+═══════════════════════════════════════ */
+.dark body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 70% 40% at 15% 5%,  rgba(233,185,73,0.055) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 35% at 85% 90%,  rgba(82,214,138,0.035) 0%, transparent 55%);
+}
+#app { position: relative; z-index: 1; }
+
+/* ═══════════════════════════════════════
+   CUSTOM FORM SELECTS
+   (@tailwindcss/forms resets are good,
+    but these extra overrides keep the
+    gold-focus ring and dark bg correct)
+═══════════════════════════════════════ */
+select, input[type="text"], input[type="number"] {
+  background-color: var(--input-bg);
+  border-color: var(--border-soft);
+  color: var(--text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  appearance: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+select:focus, input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(233,185,73,0.14);
+}
+select option { background-color: var(--bg-surface); }
+
+/* Grade mini-select inside subject rows */
+.grade-mini {
+  background-color: var(--bg);
+  border: 1.5px solid rgba(233,185,73,0.22);
+  border-radius: 6px;
+  color: var(--gold);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  padding: 0.1rem 0.45rem;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+  width: 54px;
+  text-align: center;
+  transition: border-color var(--transition);
+}
+.grade-mini:focus { border-color: var(--gold); }
+.grade-mini option { background-color: var(--bg-surface); }
+
+/* ═══════════════════════════════════════
+   SPARKLINE
+   (flex + dynamic inline height — can't
+    be done with Tailwind static classes)
+═══════════════════════════════════════ */
+.sparkline {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 22px;
+}
+.spark-bar {
+  width: 9px;
+  border-radius: 2px 2px 0 0;
+  transition: height 0.3s ease;
+}
+
+/* ═══════════════════════════════════════
+   LEFT-BORDER STATUS INDICATOR
+   (Tailwind's border-l utilities exist but
+    ::before pseudo approach keeps card
+    border-radius intact)
+═══════════════════════════════════════ */
+.card-status::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 14px 0 0 14px;
+}
+.status-likely::before   { background: var(--green); }
+.status-possible::before { background: var(--amber); }
+.status-stretch::before  { background: var(--red); }
+.status-ineligible::before { background: var(--text-muted); opacity: 0.4; }
+
+/* ═══════════════════════════════════════
+   DRAWER SLIDE-IN ANIMATION
+═══════════════════════════════════════ */
+.drawer-panel {
+  animation: drawerIn 0.24s ease;
+}
+@keyframes drawerIn {
+  from { transform: translateX(40px); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+
+/* ═══════════════════════════════════════
+   WHAT-IF SIMULATOR — RANGE SLIDER
+   (Tailwind range styling is limited;
+    keeping cross-browser thumb styling here)
+═══════════════════════════════════════ */
+input[type="range"].grade-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--bg-raised);
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+input[type="range"].grade-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--gold);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(233,185,73,0.4);
+  transition: box-shadow 0.2s;
+}
+input[type="range"].grade-slider::-webkit-slider-thumb:hover {
+  box-shadow: 0 2px 14px rgba(233,185,73,0.6);
+}
+input[type="range"].grade-slider::-moz-range-thumb {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: none;
+  cursor: pointer;
+}
+
+/* ═══════════════════════════════════════
+   FADE TRANSITION (Vue <Transition>)
+═══════════════════════════════════════ */
+.fade-enter-active, .fade-leave-active { transition: opacity 0.18s ease; }
+.fade-enter-from,  .fade-leave-to      { opacity: 0; }
+
+/* ═══════════════════════════════════════
+   SCROLLBAR (dark theme only, webkit)
+═══════════════════════════════════════ */
+.dark ::-webkit-scrollbar { width: 6px; }
+.dark ::-webkit-scrollbar-track { background: var(--bg-surface); }
+.dark ::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 9999px; }
+.dark ::-webkit-scrollbar-thumb:hover { background: var(--bg-hover); }

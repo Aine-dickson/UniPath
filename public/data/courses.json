@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1, "country": "ug",
+    "name": "Bachelor of Medicine & Surgery (MBChB)",
+    "university": "Makerere University", "faculty": "Medicine", "duration": "5 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics", "Physics"],
+    "history": [36, 37, 37, 38, 38],
+    "career": "Becomes a medical doctor (MD). Works in hospitals, clinics, public health, surgery, or specialises into fields like paediatrics, obstetrics, oncology. High demand across East Africa and globally. Can pursue postgraduate specialisation via MMed.",
+    "coreUnits": ["Anatomy", "Physiology", "Biochemistry", "Pathology", "Pharmacology", "Clinical Medicine", "Surgery", "Obstetrics & Gynecology", "Paediatrics", "Community Health"]
+  },
+  {
+    "id": 2, "country": "ug",
+    "name": "Bachelor of Pharmacy",
+    "university": "Makerere University", "faculty": "Medicine", "duration": "4 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Mathematics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [30, 31, 31, 32, 32],
+    "career": "Pharmacist in hospitals, community pharmacies, pharmaceutical industry, or drug regulatory bodies (NDA Uganda). Can specialise in clinical pharmacy, industrial pharmacy, or pharmaceutical research.",
+    "coreUnits": ["Pharmaceutical Chemistry", "Pharmacognosy", "Pharmacology", "Pharmaceutics", "Clinical Pharmacy", "Drug Metabolism", "Pharmacy Law", "Biostatistics"]
+  },
+  {
+    "id": 3, "country": "ug",
+    "name": "Bachelor of Dental Surgery",
+    "university": "Makerere University", "faculty": "Medicine", "duration": "5 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Physics"],
+    "history": [29, 30, 30, 31, 31],
+    "career": "Dental surgeon in private practice, public hospitals, or specialised dental clinics. Can specialise in orthodontics, oral surgery, or paediatric dentistry.",
+    "coreUnits": ["Oral Anatomy", "Oral Pathology", "Dental Materials", "Prosthodontics", "Orthodontics", "Oral Surgery", "Periodontology", "Endodontics"]
+  },
+  {
+    "id": 4, "country": "ug",
+    "name": "Bachelor of Science in Nursing",
+    "university": "Mbarara University of Science & Technology", "faculty": "Medicine", "duration": "4 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [22, 23, 24, 24, 25],
+    "career": "Registered nurse in hospitals, community health centres, NGOs, or as a nurse educator. Opportunities in Uganda, Middle East, UK, and other international placements.",
+    "coreUnits": ["Anatomy & Physiology", "Fundamental Nursing", "Medical-Surgical Nursing", "Midwifery", "Paediatric Nursing", "Community Health Nursing", "Mental Health Nursing"]
+  },
+  {
+    "id": 5, "country": "ug",
+    "name": "Bachelor of Biomedical Laboratory Technology",
+    "university": "Makerere University", "faculty": "Medicine", "duration": "3 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [22, 23, 23, 24, 24],
+    "career": "Medical laboratory scientist in hospitals, diagnostic labs, research institutions, and public health agencies. Growing demand in diagnostics and disease surveillance.",
+    "coreUnits": ["Haematology", "Clinical Chemistry", "Microbiology", "Parasitology", "Histopathology", "Immunology", "Laboratory Management"]
+  },
+  {
+    "id": 6, "country": "ug",
+    "name": "Bachelor of Veterinary Medicine",
+    "university": "Makerere University", "faculty": "Agriculture", "duration": "5 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [27, 28, 28, 29, 29],
+    "career": "Veterinarian in livestock, wildlife conservation, food safety, government veterinary services, or animal research. Opportunities with NGOs and international animal health organisations.",
+    "coreUnits": ["Animal Anatomy", "Veterinary Physiology", "Microbiology", "Veterinary Pharmacology", "Animal Production", "Epidemiology", "Food Hygiene", "Wildlife Medicine"]
+  },
+  {
+    "id": 7, "country": "ug",
+    "name": "Bachelor of Agriculture",
+    "university": "Makerere University", "faculty": "Agriculture", "duration": "4 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Agriculture",
+    "oLevelRequired": ["Biology", "Chemistry"],
+    "history": [18, 19, 20, 20, 21],
+    "career": "Agricultural officer, farm manager, agribusiness entrepreneur, researcher, or development worker with NGOs and government extension services.",
+    "coreUnits": ["Soil Science", "Crop Production", "Animal Science", "Agricultural Economics", "Agronomy", "Plant Pathology", "Irrigation", "Agricultural Extension"]
+  },
+  {
+    "id": 8, "country": "ug",
+    "name": "Bachelor of Engineering (Civil)",
+    "university": "Makerere University", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics", "Chemistry"],
+    "history": [28, 29, 30, 30, 31],
+    "career": "Civil engineer designing roads, bridges, buildings, dams, and water systems. Works with government (UNRA, NWSC), construction firms, and consultancies. High demand in Uganda's infrastructure growth.",
+    "coreUnits": ["Engineering Mathematics", "Structural Analysis", "Fluid Mechanics", "Geotechnical Engineering", "Transportation Engineering", "Construction Management", "Surveying", "Environmental Engineering"]
+  },
+  {
+    "id": 9, "country": "ug",
+    "name": "Bachelor of Engineering (Electrical)",
+    "university": "Makerere University", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [27, 28, 29, 29, 30],
+    "career": "Electrical engineer in power generation, telecommunications, electronics design, or automation. Works with UMEME, MTN, Airtel, and engineering consultancies.",
+    "coreUnits": ["Circuit Theory", "Electromagnetics", "Power Systems", "Digital Electronics", "Control Systems", "Telecommunications", "Signal Processing", "Renewable Energy"]
+  },
+  {
+    "id": 10, "country": "ug",
+    "name": "Bachelor of Engineering (Mechanical)",
+    "university": "Kyambogo University", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [25, 26, 27, 27, 28],
+    "career": "Mechanical engineer in manufacturing, oil & gas, automotive, or HVAC sectors. Opportunities in Uganda's growing industrial and energy sectors.",
+    "coreUnits": ["Thermodynamics", "Fluid Mechanics", "Machine Design", "Manufacturing Processes", "Dynamics", "Heat Transfer", "Automotive Engineering", "CAD/CAM"]
+  },
+  {
+    "id": 11, "country": "ug",
+    "name": "Bachelor of Architecture",
+    "university": "Makerere University", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Art",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [24, 25, 25, 26, 26],
+    "career": "Architect designing residential, commercial, and public buildings. Works in private firms, government (MoWT), or runs own practice. Urban planning opportunities.",
+    "coreUnits": ["Architectural Design", "Building Construction", "Structural Systems", "Environmental Design", "History of Architecture", "Urban Planning", "Computer-Aided Design", "Building Economics"]
+  },
+  {
+    "id": 12, "country": "ug",
+    "name": "Bachelor of Science in Computer Science",
+    "university": "Makerere University", "faculty": "Computing", "duration": "3 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [26, 27, 28, 28, 29],
+    "career": "Software developer, data scientist, systems analyst, cybersecurity specialist, or AI/ML engineer. One of the fastest-growing fields in Uganda and globally. High earning potential.",
+    "coreUnits": ["Programming (Python/Java)", "Data Structures", "Algorithms", "Database Systems", "Operating Systems", "Computer Networks", "Software Engineering", "Machine Learning", "Cybersecurity"]
+  },
+  {
+    "id": 13, "country": "ug",
+    "name": "Bachelor of Science in Software Engineering",
+    "university": "Makerere University", "faculty": "Computing", "duration": "3 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics"],
+    "history": [24, 25, 26, 26, 27],
+    "career": "Software engineer building web apps, mobile apps, enterprise systems, or embedded systems. Strong demand locally and remote work opportunities globally.",
+    "coreUnits": ["Software Design Patterns", "Web Development", "Mobile Development", "Testing & QA", "Agile Methods", "Cloud Computing", "DevOps", "Distributed Systems"]
+  },
+  {
+    "id": 14, "country": "ug",
+    "name": "Bachelor of Science in Information Technology",
+    "university": "Uganda Technology and Management University", "faculty": "Computing", "duration": "3 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Computer Studies",
+    "oLevelRequired": ["Mathematics"],
+    "history": [20, 21, 21, 22, 22],
+    "career": "IT support specialist, systems administrator, network engineer, or IT project manager. Broad demand across private sector, NGOs, and government.",
+    "coreUnits": ["Networking", "Database Administration", "Systems Analysis", "IT Security", "Project Management", "Web Technologies", "Cloud Services", "IT Governance"]
+  },
+  {
+    "id": 15, "country": "ug",
+    "name": "Bachelor of Statistics",
+    "university": "Makerere University", "faculty": "Computing", "duration": "3 yrs",
+    "essentials": ["Mathematics", "Economics"], "relevant": "Physics",
+    "oLevelRequired": ["Mathematics"],
+    "history": [22, 23, 23, 24, 24],
+    "career": "Statistician, data analyst, or actuary in banking, insurance, research, government statistics bureaus (UBOS), or international organisations (UN, World Bank).",
+    "coreUnits": ["Probability Theory", "Statistical Inference", "Regression Analysis", "Time Series", "Bayesian Statistics", "Data Analysis with R/SPSS", "Actuarial Science", "Biostatistics"]
+  },
+  {
+    "id": 16, "country": "ug",
+    "name": "Bachelor of Commerce",
+    "university": "Makerere University", "faculty": "Business", "duration": "3 yrs",
+    "essentials": ["Economics", "Mathematics"], "relevant": "History",
+    "oLevelRequired": ["Mathematics", "Economics"],
+    "history": [21, 22, 22, 23, 23],
+    "career": "Accountant, finance officer, banker, auditor, or business analyst. Eligible to pursue CPA, ACCA, or CFA professional certifications afterward.",
+    "coreUnits": ["Financial Accounting", "Cost Accounting", "Business Law", "Economics", "Marketing", "Finance", "Auditing", "Taxation", "Business Statistics"]
+  },
+  {
+    "id": 17, "country": "ug",
+    "name": "Bachelor of Business Administration",
+    "university": "Kyambogo University", "faculty": "Business", "duration": "3 yrs",
+    "essentials": ["Economics", "Mathematics"], "relevant": "History",
+    "oLevelRequired": ["Mathematics"],
+    "history": [19, 20, 20, 21, 21],
+    "career": "Business manager, entrepreneur, HR manager, marketing professional, or operations manager across private sector and government agencies.",
+    "coreUnits": ["Management Principles", "Organisational Behaviour", "Marketing", "Human Resource Management", "Operations Management", "Entrepreneurship", "Strategic Management", "Business Finance"]
+  },
+  {
+    "id": 18, "country": "ug",
+    "name": "Bachelor of Economics",
+    "university": "Makerere University", "faculty": "Social Sciences", "duration": "3 yrs",
+    "essentials": ["Economics", "Mathematics"], "relevant": "Geography",
+    "oLevelRequired": ["Mathematics", "Economics"],
+    "history": [23, 24, 24, 25, 25],
+    "career": "Economist in government (MoFPED, BoU), international organisations (IMF, World Bank), banks, research institutions, or NGOs. Strong analytical career.",
+    "coreUnits": ["Microeconomics", "Macroeconomics", "Development Economics", "Econometrics", "Public Finance", "International Trade", "Environmental Economics", "Research Methods"]
+  },
+  {
+    "id": 19, "country": "ug",
+    "name": "Bachelor of Laws (LLB)",
+    "university": "Makerere University", "faculty": "Law", "duration": "4 yrs",
+    "essentials": ["History", "Economics"], "relevant": "Literature in English",
+    "oLevelRequired": ["English Language", "History"],
+    "history": [29, 30, 31, 31, 32],
+    "career": "Advocate, state attorney, corporate lawyer, legal counsel, judge (after experience), or human rights lawyer. Bar Course (Law Development Centre) required after graduation to practise.",
+    "coreUnits": ["Constitutional Law", "Criminal Law", "Contract Law", "Tort Law", "Land Law", "Evidence", "Civil Procedure", "Company Law", "International Law", "Legal Research"]
+  },
+  {
+    "id": 20, "country": "ug",
+    "name": "Bachelor of Laws (LLB)",
+    "university": "Uganda Christian University", "faculty": "Law", "duration": "4 yrs",
+    "essentials": ["History", "Economics"], "relevant": "Literature in English",
+    "oLevelRequired": ["English Language"],
+    "history": [22, 23, 23, 24, 24],
+    "career": "Same career pathways as other LLB programmes. UCU has a strong moot court culture and produces many advocates and human rights practitioners.",
+    "coreUnits": ["Constitutional Law", "Criminal Law", "Family Law", "Property Law", "Commercial Law", "Human Rights Law", "ADR & Mediation", "Legal Drafting"]
+  },
+  {
+    "id": 21, "country": "ug",
+    "name": "Bachelor of Mass Communication",
+    "university": "Makerere University", "faculty": "Social Sciences", "duration": "3 yrs",
+    "essentials": ["Literature in English", "History"], "relevant": "Economics",
+    "oLevelRequired": ["English Language"],
+    "history": [20, 21, 21, 22, 22],
+    "career": "Journalist, media producer, public relations officer, communications manager, or digital content creator. Growing demand in Uganda's media and NGO sectors.",
+    "coreUnits": ["Media Writing", "Broadcast Journalism", "Public Relations", "Media Law", "Digital Media", "Photography", "Video Production", "Communication Research", "Advertising"]
+  },
+  {
+    "id": 22, "country": "ug",
+    "name": "Bachelor of Education (Science)",
+    "university": "Kyambogo University", "faculty": "Education", "duration": "3 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Mathematics",
+    "oLevelRequired": ["Mathematics", "Biology"],
+    "history": [18, 19, 19, 20, 20],
+    "career": "Secondary school teacher in science subjects. Can progress to head of department, deputy principal, or principal. Government teachers are on the public service pay scale.",
+    "coreUnits": ["Education Psychology", "Curriculum Development", "Pedagogy", "Teaching Methods", "Biology Teaching", "Chemistry Teaching", "Education Policy", "School Administration"]
+  },
+  {
+    "id": 23, "country": "ug",
+    "name": "Bachelor of Social Work & Social Administration",
+    "university": "Makerere University", "faculty": "Social Sciences", "duration": "3 yrs",
+    "essentials": ["History", "Economics"], "relevant": "Geography",
+    "oLevelRequired": ["English Language"],
+    "history": [17, 18, 18, 19, 19],
+    "career": "Social worker, community development officer, probation officer, NGO programme manager, or humanitarian worker. Strong demand in Uganda's large NGO sector.",
+    "coreUnits": ["Social Work Practice", "Community Development", "Human Rights", "Social Policy", "Counselling", "Research Methods", "Gender Studies", "NGO Management"]
+  },
+  {
+    "id": 24, "country": "ug",
+    "name": "Bachelor of Science in Quantity Surveying",
+    "university": "Makerere University", "faculty": "Engineering", "duration": "4 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Economics",
+    "oLevelRequired": ["Mathematics"],
+    "history": [21, 22, 22, 23, 23],
+    "career": "Quantity surveyor estimating and managing construction costs. Works with construction companies, government (MoWT), and consulting firms. Growing demand with Uganda's construction boom.",
+    "coreUnits": ["Construction Economics", "Measurement & Estimating", "Contract Management", "Project Management", "Building Technology", "Cost Planning", "Procurement", "BIM Fundamentals"]
+  },
+
+  {
+    "id": 101, "country": "ke",
+    "name": "Bachelor of Medicine & Surgery (MBChB)",
+    "university": "University of Nairobi", "faculty": "Medicine", "duration": "6 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics", "Physics"],
+    "history": [73, 74, 74, 75, 75],
+    "career": "Medical doctor in Kenya's public and private hospitals. Can pursue postgraduate specialisation. Strong demand across East Africa and diaspora.",
+    "coreUnits": ["Anatomy", "Physiology", "Biochemistry", "Pathology", "Clinical Medicine", "Surgery", "Obstetrics", "Community Health", "Pharmacology"]
+  },
+  {
+    "id": 102, "country": "ke",
+    "name": "Bachelor of Science in Computer Science",
+    "university": "University of Nairobi", "faculty": "Computing", "duration": "4 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [58, 59, 60, 61, 62],
+    "career": "Software engineer, data scientist, or systems architect. Kenya is East Africa's tech hub (Silicon Savannah) — excellent local and international job market.",
+    "coreUnits": ["Programming", "Algorithms", "Database Systems", "AI & ML", "Networks", "Software Engineering", "Cloud Computing", "Cybersecurity"]
+  },
+  {
+    "id": 103, "country": "ke",
+    "name": "Bachelor of Engineering (Civil)",
+    "university": "Jomo Kenyatta University of Agriculture & Technology", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics", "Chemistry"],
+    "history": [60, 61, 62, 62, 63],
+    "career": "Civil engineer for infrastructure development across Kenya and the region. Kenya's massive SGR and road projects drive strong demand.",
+    "coreUnits": ["Structural Analysis", "Geotechnical Engineering", "Transport Engineering", "Fluid Mechanics", "Construction Management", "Environmental Engineering"]
+  },
+  {
+    "id": 104, "country": "ke",
+    "name": "Bachelor of Commerce (Accounting)",
+    "university": "University of Nairobi", "faculty": "Business", "duration": "4 yrs",
+    "essentials": ["Mathematics", "Economics"], "relevant": "History",
+    "oLevelRequired": ["Mathematics", "Economics"],
+    "history": [52, 53, 53, 54, 55],
+    "career": "Accountant, auditor, or finance professional in Kenya's large formal sector. CPA-K certification pathway available after graduation.",
+    "coreUnits": ["Financial Accounting", "Management Accounting", "Auditing", "Taxation", "Financial Management", "Business Law", "Econometrics"]
+  },
+  {
+    "id": 105, "country": "ke",
+    "name": "Bachelor of Laws (LLB)",
+    "university": "University of Nairobi", "faculty": "Law", "duration": "4 yrs",
+    "essentials": ["History", "Literature in English"], "relevant": "Economics",
+    "oLevelRequired": ["English Language", "History"],
+    "history": [62, 63, 64, 64, 65],
+    "career": "Advocate of the High Court of Kenya. Corporate lawyer, judge, academic, or human rights practitioner. Kenya School of Law admission required after graduation.",
+    "coreUnits": ["Constitutional Law", "Criminal Law", "Contract Law", "Land Law", "Commercial Law", "International Law", "Legal Research"]
+  },
+  {
+    "id": 106, "country": "ke",
+    "name": "Bachelor of Pharmacy",
+    "university": "University of Nairobi", "faculty": "Medicine", "duration": "5 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Mathematics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [65, 66, 66, 67, 67],
+    "career": "Pharmacist in hospitals, community pharmacies, or pharmaceutical manufacturing. Kenya's growing healthcare sector needs more pharmacists.",
+    "coreUnits": ["Pharmaceutics", "Pharmacology", "Clinical Pharmacy", "Pharmaceutical Chemistry", "Pharmacognosy", "Drug Regulation"]
+  },
+  {
+    "id": 107, "country": "ke",
+    "name": "Bachelor of Education (Science)",
+    "university": "Kenyatta University", "faculty": "Education", "duration": "4 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Mathematics",
+    "oLevelRequired": ["Mathematics", "Biology"],
+    "history": [48, 49, 49, 50, 51],
+    "career": "Science teacher in secondary schools across Kenya's expanding public education system. TSC employment pathway with structured career progression.",
+    "coreUnits": ["Education Psychology", "Curriculum Studies", "Biology Teaching Methods", "Chemistry Teaching Methods", "Educational Technology", "School Management"]
+  },
+  {
+    "id": 108, "country": "ke",
+    "name": "Bachelor of Science in Nursing",
+    "university": "Kenya Medical Training College / Moi University", "faculty": "Medicine", "duration": "4 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [55, 56, 57, 57, 58],
+    "career": "Registered nurse eligible for practice in Kenya's public and private hospitals. High international demand — pathway to UK, Middle East, and Canada placements.",
+    "coreUnits": ["Anatomy & Physiology", "Fundamental Nursing", "Medical-Surgical Nursing", "Midwifery", "Community Health Nursing", "Mental Health Nursing", "Research Methods"]
+  },
+  {
+    "id": 109, "country": "ke",
+    "name": "Bachelor of Economics",
+    "university": "University of Nairobi", "faculty": "Social Sciences", "duration": "4 yrs",
+    "essentials": ["Mathematics", "Economics"], "relevant": "Geography",
+    "oLevelRequired": ["Mathematics", "Economics"],
+    "history": [54, 55, 55, 56, 57],
+    "career": "Economist in Kenya's central bank (CBK), Treasury, World Bank, IMF, or private sector. Strong analytical career with excellent regional demand.",
+    "coreUnits": ["Microeconomics", "Macroeconomics", "Econometrics", "Development Economics", "Public Finance", "International Economics", "Research Methods"]
+  },
+  {
+    "id": 110, "country": "ke",
+    "name": "Bachelor of Engineering (Electrical)",
+    "university": "Jomo Kenyatta University of Agriculture & Technology", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [61, 62, 62, 63, 64],
+    "career": "Electrical engineer in Kenya's power sector (KPLC, KenGen), telecoms (Safaricom, Airtel), or engineering consultancies. Strong demand from renewable energy projects.",
+    "coreUnits": ["Circuit Theory", "Power Systems", "Digital Electronics", "Control Systems", "Telecommunications", "Renewable Energy Systems", "Signal Processing"]
+  },
+
+  {
+    "id": 201, "country": "tz",
+    "name": "Bachelor of Medicine & Surgery (MD)",
+    "university": "Muhimbili University of Health & Allied Sciences", "faculty": "Medicine", "duration": "5 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics", "Physics"],
+    "history": [34, 35, 36, 36, 37],
+    "career": "Medical doctor in Tanzania's public health system (MoHCDGEC) or private hospitals. MUHAS is the premier medical university in Tanzania. Can pursue postgraduate specialisation (MMed).",
+    "coreUnits": ["Anatomy", "Physiology", "Biochemistry", "Pathology", "Clinical Medicine", "Surgery", "Obstetrics & Gynecology", "Paediatrics", "Community Health"]
+  },
+  {
+    "id": 202, "country": "tz",
+    "name": "Bachelor of Pharmacy",
+    "university": "Muhimbili University of Health & Allied Sciences", "faculty": "Medicine", "duration": "4 yrs",
+    "essentials": ["Chemistry", "Biology"], "relevant": "Mathematics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [28, 29, 30, 30, 31],
+    "career": "Pharmacist in Tanzania's hospitals, community pharmacies, or the pharmaceutical manufacturing sector. TFDA registration required to practise.",
+    "coreUnits": ["Pharmaceutics", "Pharmacology", "Clinical Pharmacy", "Pharmaceutical Chemistry", "Pharmacognosy", "Drug Regulation", "Biostatistics"]
+  },
+  {
+    "id": 203, "country": "tz",
+    "name": "Bachelor of Science in Computer Science & Engineering",
+    "university": "University of Dar es Salaam", "faculty": "Computing", "duration": "3 yrs",
+    "essentials": ["Mathematics", "Physics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [24, 25, 26, 26, 27],
+    "career": "Software engineer, data scientist, systems analyst, or IT manager. Tanzania's growing fintech and mobile money sector (M-Pesa ecosystem) creates strong local demand.",
+    "coreUnits": ["Programming (C/Java/Python)", "Data Structures", "Algorithms", "Database Systems", "Computer Networks", "Software Engineering", "Embedded Systems", "AI Fundamentals"]
+  },
+  {
+    "id": 204, "country": "tz",
+    "name": "Bachelor of Engineering (Civil & Water Resources)",
+    "university": "University of Dar es Salaam", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics", "Chemistry"],
+    "history": [27, 28, 28, 29, 30],
+    "career": "Civil engineer for Tanzania's TANZAM highway, SGR railway, and large dam projects. Government (TANROADS, RELI ASSETS) and private sector opportunities.",
+    "coreUnits": ["Structural Analysis", "Hydraulics", "Geotechnical Engineering", "Transport Engineering", "Water Resources Engineering", "Construction Management", "Surveying"]
+  },
+  {
+    "id": 205, "country": "tz",
+    "name": "Bachelor of Laws (LLB)",
+    "university": "University of Dar es Salaam", "faculty": "Law", "duration": "3 yrs",
+    "essentials": ["History", "Economics"], "relevant": "Literature in English",
+    "oLevelRequired": ["English Language", "History"],
+    "history": [26, 27, 27, 28, 29],
+    "career": "Advocate of the High Court of Tanzania. Corporate lawyer, state attorney, or legal academic. Law School of Tanzania (LST) Bar examinations required to practise.",
+    "coreUnits": ["Constitutional Law", "Criminal Law", "Contract Law", "Land Law", "Commercial Law", "Evidence", "Civil Procedure", "International Law", "Legal Research"]
+  },
+  {
+    "id": 206, "country": "tz",
+    "name": "Bachelor of Commerce (Accounting & Finance)",
+    "university": "University of Dar es Salaam", "faculty": "Business", "duration": "3 yrs",
+    "essentials": ["Economics", "Mathematics"], "relevant": "History",
+    "oLevelRequired": ["Mathematics", "Economics"],
+    "history": [22, 22, 23, 23, 24],
+    "career": "Accountant, banker, or finance officer in Tanzania's formal economy. NBAA certification pathway available. Strong demand in the banking and donor-funded project sector.",
+    "coreUnits": ["Financial Accounting", "Management Accounting", "Auditing", "Taxation", "Financial Management", "Business Law", "Business Statistics", "Microeconomics"]
+  },
+  {
+    "id": 207, "country": "tz",
+    "name": "Bachelor of Science in Nursing",
+    "university": "Muhimbili University of Health & Allied Sciences", "faculty": "Medicine", "duration": "3 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Physics",
+    "oLevelRequired": ["Biology", "Chemistry", "Mathematics"],
+    "history": [20, 21, 22, 22, 23],
+    "career": "Registered nurse in Tanzania's public and mission hospitals. Growing international placement opportunities in the Middle East and Europe. Can progress to specialised nursing or nurse tutoring.",
+    "coreUnits": ["Anatomy & Physiology", "Fundamental Nursing", "Medical-Surgical Nursing", "Midwifery", "Community Health Nursing", "Mental Health Nursing", "Paediatric Nursing"]
+  },
+  {
+    "id": 208, "country": "tz",
+    "name": "Bachelor of Education (Science)",
+    "university": "University of Dodoma", "faculty": "Education", "duration": "3 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Mathematics",
+    "oLevelRequired": ["Mathematics", "Biology"],
+    "history": [17, 18, 18, 19, 20],
+    "career": "Science teacher in Tanzania's secondary schools. TSC/Teachers Service Department employment pathway. Chronic shortage of qualified science teachers means strong job security.",
+    "coreUnits": ["Education Psychology", "Curriculum Studies", "Biology Teaching Methods", "Chemistry Teaching Methods", "Educational Technology", "School Management", "Research Methods in Education"]
+  },
+  {
+    "id": 209, "country": "tz",
+    "name": "Bachelor of Engineering (Electrical)",
+    "university": "Ardhi University / University of Dar es Salaam", "faculty": "Engineering", "duration": "5 yrs",
+    "essentials": ["Physics", "Mathematics"], "relevant": "Chemistry",
+    "oLevelRequired": ["Mathematics", "Physics"],
+    "history": [25, 26, 27, 27, 28],
+    "career": "Electrical engineer in TANESCO, telecoms (Vodacom, Airtel TZ), or engineering consultancies. Tanzania's rural electrification programme drives consistent demand.",
+    "coreUnits": ["Circuit Theory", "Power Systems", "Digital Electronics", "Control Systems", "Telecommunications", "Renewable Energy", "Instrumentation"]
+  },
+  {
+    "id": 210, "country": "tz",
+    "name": "Bachelor of Agriculture & Food Security",
+    "university": "Sokoine University of Agriculture", "faculty": "Agriculture", "duration": "4 yrs",
+    "essentials": ["Biology", "Chemistry"], "relevant": "Agriculture",
+    "oLevelRequired": ["Biology", "Chemistry"],
+    "history": [18, 19, 19, 20, 21],
+    "career": "Agronomist, food security officer, or agribusiness professional. Sokoine is Tanzania's top agriculture university. Strong demand from government extension services, FAO, and World Food Programme.",
+    "coreUnits": ["Soil Science", "Crop Production", "Animal Production", "Agricultural Economics", "Food Science & Technology", "Irrigation", "Plant Pathology", "Post-Harvest Technology"]
+  },
+  {
+    "id": 211, "country": "tz",
+    "name": "Bachelor of Environmental Science & Management",
+    "university": "University of Dar es Salaam", "faculty": "Social Sciences", "duration": "3 yrs",
+    "essentials": ["Biology", "Geography"], "relevant": "Chemistry",
+    "oLevelRequired": ["Biology", "Chemistry", "Geography"],
+    "history": [19, 20, 20, 21, 22],
+    "career": "Environmental officer, conservation scientist, or sustainability consultant. Tanzania's massive wildlife and conservation sector (TANAPA, WWF, WCS) creates strong demand.",
+    "coreUnits": ["Environmental Science", "Ecology", "Conservation Biology", "Environmental Law", "GIS & Remote Sensing", "Climate Change", "Environmental Impact Assessment", "Pollution Control"]
+  },
+  {
+    "id": 212, "country": "tz",
+    "name": "Bachelor of Tourism & Hospitality Management",
+    "university": "Institute of Finance Management / Ardhi University", "faculty": "Business", "duration": "3 yrs",
+    "essentials": ["Economics", "Geography"], "relevant": "History",
+    "oLevelRequired": ["English Language", "Geography"],
+    "history": [17, 18, 19, 19, 20],
+    "career": "Hotel manager, tour operator, or hospitality professional in Tanzania's massive tourism sector — the country's largest foreign exchange earner (Serengeti, Zanzibar, Kilimanjaro).",
+    "coreUnits": ["Tourism Management", "Hospitality Operations", "Hotel Administration", "Tourism Marketing", "Tour Guiding", "Event Management", "Food & Beverage Management", "Eco-Tourism"]
+  }
+]
